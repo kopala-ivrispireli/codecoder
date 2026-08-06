@@ -95,4 +95,5 @@ birthyear = ['59',
 
 # Output
 for i in range(int(codnum)):
-	print(random.choice(women)+random.choice(men)+'1'+random.choice(birthyear))
+	gender = str(random.randint(1,2))
+	print(random.choice(women) + random.choice(men) + gender + random.choice(birthyear))
